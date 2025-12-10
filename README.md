@@ -18,6 +18,12 @@ Basic usage (script: scraper.py):
 bash
 python scraper.py --source https://www.bbc.com/news --output headlines.json
 
+## Output Formats
+
+* *JSON* — array of objects: { "title": ..., "url": ..., "time": ..., "source": ... }
+* *CSV* — columns: title,url,time,source
+
+
 ## output
 -- Headlines ---
 
